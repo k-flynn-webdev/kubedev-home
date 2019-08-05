@@ -13,7 +13,8 @@
 
 				<br>
 
-				<p class="poster-small text-light colour-fill-pop"> 	kubedev
+				<p class="poster-small text-light colour-fill-pop"> 	
+					kubedev
 				</p>
 
 				<br>
@@ -30,12 +31,32 @@
 					</a>
 
 				</p>
-				
+
 				<br>
 				<br>
-				
-				<cprofile></cprofile>
-					
+
+				<p class="text colour-fill-pop"> 
+					Have a project in mind, let me know
+				</p>
+
+
+				<div class="message-box">
+
+					<p> 
+						message box here
+					</p>
+
+				</div>
+
+
+				<div class="text-center">
+					<div class="colour-bg-pop" style="margin-top: 10vh;min-height:3px;width: 5rem;display:inline-block;">
+					</div>
+				</div>
+
+
+				<!-- <cprofile></cprofile> -->
+
 			</div>
 
 

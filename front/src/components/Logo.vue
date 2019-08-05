@@ -1,5 +1,7 @@
 <template>
-	<div class="logo">
+
+	<g-link class="top-left logo" to="/">
+
 		<svg width="100%" height="100%" viewBox="0 0 66 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 
 			<g id="kube-icon">
@@ -8,14 +10,19 @@
 				<path class="colour-fill-pop" d="M33,13.923l21.932,13.271l0,53.084l-10.966,6.636l-10.966,-6.636l-10.966,6.636l-10.966,-6.636l0,-53.084l21.932,-13.271Z"/>
 				<path class="colour-fill" d="M33,40.465l0,39.813l-10.966,6.636l-10.966,-6.636l0,-53.084l21.932,-13.271l0,26.542Z" style="fill-opacity:0.5;"/>
 			</g>
+
 		</svg>
-	</div>
+
+	</g-link>
+
 </template>
 
 <script>
+
 export default {
 	name: 'clogo',
 }
+
 </script>
 
 <style>
@@ -24,21 +31,25 @@ export default {
 	--icon : 2rem;
 }
 
+.top-left {
+	position: absolute;
+	top: var(--margin);
+	left: var(--margin);
+}
+
 #kube-icon {
 	position: absolute;
 }
 
 .logo {
 	width: 3.5rem;
-	display: inline-block;
-	position: absolute;
 }
 
 .logo-social {
 	display: inline-block;
 	height: var(--icon);
 	width: var(--icon);
-	margin-right: .5rem;
+	margin: .3rem;
 	border-radius: .4rem; 
 	border: 2px solid var(--colour-pop);
 }

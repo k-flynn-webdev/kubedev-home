@@ -1,34 +1,29 @@
 <template>
-	<div class="layout">
 
-		<clogo></clogo>
+	<div class="text-center">
 
-		<div class="social-bar">
-			
-			<ctwitter></ctwitter>
-			<cinstagram></cinstagram>
-			<cgithub></cgithub>
-			<clinkedin></clinkedin>
+		<div class="column">
+
+			<clogo></clogo>
+
+			<div class="nav-break"></div>
+
+			<slot/>
+
+			<div class="social-bar">
+
+				<div class="screen-bottom text-center">
+
+					<ctwitter></ctwitter>
+					<cinstagram></cinstagram>
+					<cgithub></cgithub>
+					<clinkedin></clinkedin>
+
+				</div>
+
+			</div>
 
 		</div>
-
-		<div class="nav-break"></div>
-
-		<!-- <header class="header"> -->
-
-
-
-			<!-- <strong>
-				<g-link to="/">{{ $static.metaData.siteName }}</g-link>
-			</strong>
-			<nav class="nav">
-				<g-link class="nav__link" to="/">Home1</g-link>
-				<g-link class="nav__link" to="/about">About</g-link>
-			</nav> -->
-
-		<!-- </header> -->
-
-		<slot/>
 
 	</div>
 
@@ -56,8 +51,8 @@ require('@/assets/style/text.css');
 import clogo from '~/components/Logo.vue';
 import ctwitter from '~/components/Twitter.vue';
 import cinstagram from '~/components/Instagram.vue';
-import clinkedin from '~/components/LinkedIn.vue';
-import cgithub from '~/components/GitHub.vue';
+import clinkedin from '~/components/Linkedin.vue';
+import cgithub from '~/components/Github.vue';
 
 export default {
 	components: {
@@ -78,43 +73,35 @@ export default {
 	--margin : 1rem;
 }
 
+#app {
+	margin: 0 auto !important;
+	max-width: 700px;
+}
+
+.column {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	min-height: 100vh;
+	padding: var(--margin);
+	padding-bottom: 0;	
+}
+
+.nav-break {
+	height: 5rem;
+}
 
 .social-bar {
 	display: inline-block;
-	margin-left: 4.75rem;
-}
-
-
-.nav-break {
+	width: 100%;
 	height: 2rem;
 }
-
-.layout {
-	/*min-width: 100%;*/
-	/*min-height: 100%;*/
-	padding: var(--margin);
-	padding-bottom: 0;
-
-	/*background-color: green;*/
-	/*height: 50%;*/
-	/*max-width: 60rem;*/
-	/*margin: 0 auto;*/
-	/*padding: var(--safe);*/
-	/*padding-bottom: 0;*/
+.screen-bottom {
+	position: absolute;
+	bottom: var(--margin);
+	left: var(--margin);
+	right: var(--margin);
 }
 
-.header {
-	display: block;
-	margin-top: var(--margin);
-	background-color: red;
-/*display: flex;*/
-/*justify-content: space-between;*/
-/*align-items: center;*/
-/*margin-bottom: 20px;*/
-/*height: 80px;*/
-}
 
-/*.nav__link {
-	margin-left: 20px;
-}*/
 </style>

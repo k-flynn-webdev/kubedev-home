@@ -1,34 +1,37 @@
 <template>
 	
-	<div class="profile colour-fill-pop">
+	<div>
 
-		<div style="display: table-row-group;">
-			
-			<div style="display: table-row;">
+		<br>
+		<br>
 
-				<div class="content-cell">
+		<div class="profile colour-fill-pop">
 
-					<div class="text-center" style="position: relative;">
+			<div style="display: table-row-group;">
+				
+				<div style="display: table-row;">
 
-						<g-image class="profile-shot" src="~/assets/images/profile-shot-01.png" width="500"/>
+					<div class="content-cell">
 
-						<p class="text location"> London, UK </p>
+						<div class="text-center">
+
+							<g-image class="profile-shot" src="~/assets/images/profile-shot-01.png" width="500"/>
+
+						</div>
 
 					</div>
 
-				</div>
+					<div class="content-cell">
 
-				<div class="content-cell">
+						<div class="text-center text-content">
 
-					<div class="text-center text-content">
+							<p class="text-small">
 
-						<p class="text"> About </p>
+								Passionate about solving problems, after many years of working in games as a technical animator I've collected a unique combination of skills.
 
-						<p class="text-small">
+							</p>
 
-							Passionate about solving problems, after many years of working in games as a technical animator I've collected a unique combination of skills.
-
-						</p>
+						</div>
 
 					</div>
 
@@ -37,6 +40,7 @@
 			</div>
 
 		</div>
+	
 
 
 		<!-- <div class="column-shot text-center"> -->
@@ -103,14 +107,6 @@ export default {
 
 <style>
 
-.content-cell {
-	height: 5rem;
-	display: table-cell;
-	vertical-align: top;
-	padding: .5rem;
-	position: relative;
-}
-
 .profile {
 	display: table;
 	border-collapse: collapse;
@@ -121,8 +117,11 @@ export default {
 	position: relative;
 }
 
-.text-content {
-	/*padding-top: 10%;*/
+.content-cell {
+	height: 5rem;
+	display: table-cell;
+	vertical-align: top;
+	padding: .5rem;
 }
 
 .profile .profile-shot {
@@ -132,14 +131,26 @@ export default {
 	border: 1px solid black;
 }
 
-@media only screen and (max-width: 500px) {
+.text-content {
+	padding-top: 1rem;
+}
+
+/*@media only screen and (max-width: 500px) {*/
 	.profile .profile-shot {
-		max-width: 5.5rem;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
 	}
-}
 
-.profile .location {
+	.content-cell  {
+		padding: 0;
+	}
 
-}
+	.text-content {
+		padding-top: 4.5rem;
+	}
+/*}*/
+
 
 </style>

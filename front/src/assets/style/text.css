@@ -91,7 +91,7 @@ h1,.header,.poster{
 	font-size: 6rem;
 }
 
-
+/*// smallest */
 @media only screen and (max-width: 400px) {
 	.text-small {
 		font-size: 1rem;
@@ -110,7 +110,24 @@ h1,.header,.poster{
 	}	
 }
 
-
+/*// largest */
+@media only screen and (min-width: 700px) {
+	.text-small {
+		/*font-size: 1rem;*/
+	}
+	.text {
+		/*font-size: 1.1rem;*/
+	}
+	.title {
+		/*font-size: 2rem;*/
+	}
+	.poster-small {
+		font-size: 8rem;
+	}
+	.poster {
+		font-size: 8rem;
+	}	
+}
 
 .text-uppercase {
 	text-transform: uppercase;

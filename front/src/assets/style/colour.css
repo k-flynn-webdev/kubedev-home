@@ -9,11 +9,12 @@
 
 	--colour-dark: hsla(15,5%,10%,1);
 
+	--colour-accent: hsla(140,50%,66%,1);
 
 /*	--colour-light-gradient: hsla(182,36%,30%,1);
 
 
-	
+
 
 
 	--colour-shadow: hsla(1,1%,1%,.5);
@@ -74,12 +75,11 @@
 
 
 a {
-	color: white;
-	fill: white;
+	color: var(--colour-accent);
+	fill: var(--colour-accent);
 }
 
 html {
-	min-height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -122,6 +122,16 @@ html {
 .colour-bg-dark {
 	background-color: var(--colour-dark);
 }
+
+.colour-fill-accent {
+	color: var(--colour-accent);
+	fill: var(--colour-accent);
+}
+.colour-bg-accent {
+	background-color: var(--colour-accent) !important;
+}
+
+
 
 /*.colour-fill-notice {
 	color: var(--colour-notice);
