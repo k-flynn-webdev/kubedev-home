@@ -1,64 +1,55 @@
 <template>
 	<Layout>
 
+		<br>
 
-		<!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
+		<div class="text-center">
 
-<!-- 		<p class="home-links">
-			<a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
-			<a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-		</p> -->
+			<p class="poster-small text-light colour-fill-pop"> 	
+				kubedev
+			</p>
 
-			<div class="text-center">
+			<br>
 
-				<br>
+			<p class="text colour-fill-pop"> 
+				Busy building apps and apis for the web and mobile.
+			</p>
 
-				<p class="poster-small text-light colour-fill-pop"> 	
-					kubedev
-				</p>
-
-				<br>
-
-				<p class="text colour-fill-pop"> 
-					Busy building apps for the web and mobile.
-				</p>
-
-				<p class="text colour-fill-pop"> 
-					Say hello at 
-
-					<a href="mailto:hello@kube.dev">
-						hi@kube.dev
-					</a>
-
-				</p>
+			<p class="text colour-fill-pop"> 
+				Have a project, idea or problem you'd like to discuss?
 
 				<br>
-				<br>
 
-				<p class="text colour-fill-pop"> 
-					Have a project in mind, let me know
-				</p>
+				<a href="mailto:hi@kubedev.co.uk">
+					hi@kubedev.co.uk
+				</a>
+
+				<!-- <p class="text colour-fill-pop"> Interested in helping games studios with unique websites. </p> -->
+
+			</p>
 
 
-				<div class="message-box">
+			<div style="height: 6rem;"></div>
 
-					<p> 
-						message box here
-					</p>
+
+			<csection> 
+
+				<template slot="title">
+					<span class="colour-fill-pop text text-bold "> Skills </span>
+					<span class="colour-fill-pop text"> (full-stack) </span>
+				</template>
+
+
+				<div class="colour-fill-pop text">
+
+					<p> NodeJS . VueJS . Javascript . Python . C# </p>
+					<p> Animation . Games . Web </p>
 
 				</div>
 
+			</csection>
 
-				<div class="text-center">
-					<div class="colour-bg-pop" style="margin-top: 10vh;min-height:3px;width: 5rem;display:inline-block;">
-					</div>
-				</div>
-
-
-				<!-- <cprofile></cprofile> -->
-
-			</div>
-
+		</div>
 
 	</Layout>
 </template>
@@ -66,6 +57,7 @@
 <script>
 
 import cprofile from '~/components/Profile.vue';
+import csection from '~/components/Section.vue';
 
 export default {
 	metaInfo: {
@@ -73,6 +65,7 @@ export default {
 	},
 	components: {
 		cprofile,
+		csection,
 	},
 }
 
@@ -80,8 +73,4 @@ export default {
 
 <style>
 
-
-/*.main {
-	margin: 1rem;
-}*/
 </style>

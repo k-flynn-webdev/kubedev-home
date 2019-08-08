@@ -8,16 +8,17 @@
 
 			<div class="nav-break"></div>
 
-			<slot/>
+			<slot></slot>
 
 			<div class="social-bar">
 
-				<div class="screen-bottom text-center">
+				<div class="screen-bar text-right">
 
-					<ctwitter></ctwitter>
-					<cinstagram></cinstagram>
 					<cgithub></cgithub>
 					<clinkedin></clinkedin>
+					<ctwitter></ctwitter>
+					<cyoutube></cyoutube>
+					<cinstagram></cinstagram>
 
 				</div>
 
@@ -52,6 +53,7 @@ import clogo from '~/components/Logo.vue';
 import ctwitter from '~/components/Twitter.vue';
 import cinstagram from '~/components/Instagram.vue';
 import clinkedin from '~/components/Linkedin.vue';
+import cyoutube from '~/components/Youtube.vue';
 import cgithub from '~/components/Github.vue';
 
 export default {
@@ -60,6 +62,7 @@ export default {
 		ctwitter,
 		cinstagram,
 		clinkedin,
+		cyoutube,
 		cgithub,
 	},
 }
@@ -88,7 +91,7 @@ export default {
 }
 
 .nav-break {
-	height: 5rem;
+	height: 3.5rem;
 }
 
 .social-bar {
@@ -96,9 +99,10 @@ export default {
 	width: 100%;
 	height: 2rem;
 }
-.screen-bottom {
+.screen-bar {
+	margin-right: var(--margin);
 	position: absolute;
-	bottom: var(--margin);
+	top: var(--margin);
 	left: var(--margin);
 	right: var(--margin);
 }
