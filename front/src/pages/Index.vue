@@ -1,35 +1,35 @@
 <template>
 	<Layout>
 
-		<br>
+		<div class="index" v-bind:class="{ 'show' : state.show }">
 
-		<div class="text-center">
-
-			<p class="poster-small text-light colour-fill-pop"> 	
-				kubedev
-			</p>
-
-			<br>
-
-			<p class="text colour-fill-pop"> 
-				Busy building apps and apis for the web and mobile.
-			</p>
-
-			<p class="text colour-fill-pop"> 
-				Have a project, idea or problem you'd like to discuss?
+			<section class="text-center">
+				
+				<p class="poster-small text-light colour-fill-pop"> 	
+					kubedev
+				</p>
 
 				<br>
 
-				<a href="mailto:hi@kubedev.co.uk">
-					hi@kubedev.co.uk
-				</a>
+				<p class="text colour-fill-pop"> 
+					Busy building apps and apis for the web and mobile.
+				</p>
 
-				<!-- <p class="text colour-fill-pop"> Interested in helping games studios with unique websites. </p> -->
+				<p class="text colour-fill-pop"> 
+					Have a project, idea or problem you'd like to discuss?
 
-			</p>
+					<br>
+
+					<a href="mailto:hi@kubedev.co.uk">
+						hi@kubedev.co.uk
+					</a>
+
+					<!-- <p class="text colour-fill-pop"> Interested in helping games studios with unique websites. </p> -->
+
+				</p>
 
 
-			<div style="height: 6rem;"></div>
+			</section>
 
 
 			<csection> 
@@ -49,6 +49,8 @@
 
 			</csection>
 
+			<!-- </div> -->
+
 		</div>
 
 	</Layout>
@@ -63,14 +65,39 @@ export default {
 	metaInfo: {
 		title: 'Bye!'
 	},
+	data() {
+		return {
+			state : {
+				show : false,
+			},
+		};
+	},		
 	components: {
 		cprofile,
 		csection,
+	},
+	methods : {
+		page_show : function(){
+			this.state.show = true;
+		},
+	},
+	mounted(){
+		this.$root.$on('intro-complete', this.page_show );
 	},
 }
 
 </script>
 
 <style>
+/*
+.index {
+	opacity: 0;
+	transform: translateY(2.5rem);
+	transition: 1.5s;
+}
+.show {
+	opacity: 1;
+	transform: translateY(0);
+}*/
 
 </style>

@@ -4,9 +4,9 @@
 
 		<div class="column">
 
-			<clogo></clogo>
+			<clogo ref="logo_btn"></clogo>
 
-			<div class="nav-break"></div>
+			<div class="nav-break" v-on:click=onClick></div>
 
 			<slot></slot>
 
@@ -57,6 +57,11 @@ import cyoutube from '~/components/Youtube.vue';
 import cgithub from '~/components/Github.vue';
 
 export default {
+	methods : {
+		onClick : function(){
+			this.$refs.logo_btn.$emit('logo');
+		},
+	},
 	components: {
 		clogo,
 		ctwitter,
@@ -92,6 +97,7 @@ export default {
 
 .nav-break {
 	height: 3.5rem;
+	/*background-color: hsla(1,10%,90%,.2);*/
 }
 
 .social-bar {
