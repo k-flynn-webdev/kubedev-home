@@ -40,7 +40,11 @@ export default {
 }
 
 .bar-bottom {
+	opacity: 0.025;
 	padding-bottom: 1rem;
+	transform: translateY(-1rem);
+	transition: 1s ease-in-out;
+	transition-delay: inherit;
 }
 
 .section-title {
@@ -51,12 +55,11 @@ section {
 	margin: 2rem 0;
 	padding: 2rem 0;
 	opacity: 0.025;
-	transition: 1s cubic-bezier(0.35, 0.025, 0.3, 1.1);
-	transform: translateY(3rem);	
+	transition: 2s cubic-bezier(0.35, 0.025, 0.3, 1.1);
+	transform: translateY(2rem);
 }
 
-
-.show section {
+.show section, .show section .bar-bottom {
 	opacity: 1;
 	transform: translateY(0);
 }

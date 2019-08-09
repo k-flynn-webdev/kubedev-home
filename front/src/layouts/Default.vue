@@ -104,7 +104,19 @@ export default {
 	display: inline-block;
 	width: 100%;
 	height: 2rem;
+	animation: 2s anim-fade-in ease-in-out;
 }
+
+@keyframes anim-fade-in {
+	0% { 
+		opacity: 0; 
+	}
+	100% { 
+		opacity: 1; 
+	}
+}
+
+
 .screen-bar {
 	margin-right: var(--margin);
 	position: absolute;

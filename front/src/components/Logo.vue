@@ -4,7 +4,7 @@
 		to="/"
 		ref="logo"
 		class="top-left logo"
-		v-bind:class="{ 'intro' : state.intro }">
+		v-bind:class="{ 'intro' : state.intro, 'hide' : state.hide }">
 
 		<svg v-on:click=onClick width="100%" height="100%" viewBox="0 0 81 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 
@@ -58,6 +58,7 @@ export default {
 			logo_anim_reset : '',
 			state : {
 				intro : true,
+				hide : false,
 				playing : false,
 			},
 		};
@@ -72,22 +73,24 @@ export default {
 		},
 
 		anim_finished : function(){
+			this.state.hide = true;
+
+			let self = this;
+			setTimeout( function(){
+				self.state.hide = false;
+			}, 1 * 1000 );
 
 			if( this.state.intro ){
+				
+				this.$root.$emit('intro-complete');
 
-				this.$refs.logo.$el.classList.add("fade");
-
-				let self = this;
-				// somehow fade first?
 				setTimeout( function(){
 					self.state.intro = false;
-					self.$root.$emit('intro-complete');
-				}, .33 * 1000 );
+				}, .4 * 1000 );
 
 			}
 			if( this.state.playing ){
 				this.state.playing = false;
-				
 			}
 		},
 
@@ -99,7 +102,6 @@ export default {
 					self.logo_anim.play();
 				} ,10);
 			}
-
 			// console.log( this.$anime.running.length );
 		},
 
@@ -171,7 +173,7 @@ export default {
 				duration: 1,
 				begin : function(){
 					self.state.playing = true;
-				},				
+				},
 
 			})
 			timeline.add({
@@ -261,10 +263,10 @@ export default {
 				fill: 'hsla(1,1%,50%,1)',
 				easing: 'easeOutCubic',
 				duration: time_final_cube[1],
+				endDelay : 200,
 				complete : function(){
 					self.anim_finished();
 				},
-				endDelay : 300,
 			}, time_final_cube[0])
 
 			this.logo_anim = timeline;
@@ -306,7 +308,7 @@ export default {
 
 .logo {
 	opacity: 1;
-	transition: opacity .3s;
+	transition: all .1s, opacity .5s;
 	width: 3.5rem;
 }
 
@@ -317,7 +319,7 @@ export default {
 	top: 10%;
 }
 
-.logo.fade {
+.logo.hide {
 	opacity: 0;
 }
 

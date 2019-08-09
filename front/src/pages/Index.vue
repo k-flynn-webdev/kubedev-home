@@ -5,14 +5,14 @@
 
 			<section class="text-center">
 				
-				<p class="poster-small text-light colour-fill-pop"> 	
+				<h1 class="poster-small text-light colour-fill-pop bar-bottom"> 	
 					kubedev
-				</p>
+				</h1>
 
 				<br>
 
 				<p class="text colour-fill-pop"> 
-					Busy building apps and apis for the web and mobile.
+					Busy building apps and APIs for the web and mobile.
 				</p>
 
 				<p class="text colour-fill-pop"> 
@@ -63,7 +63,7 @@ import csection from '~/components/Section.vue';
 
 export default {
 	metaInfo: {
-		title: 'Bye!'
+		title: 'kubedev'
 	},
 	data() {
 		return {
