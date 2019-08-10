@@ -73,16 +73,16 @@ export default {
 		},
 
 		anim_finished : function(){
-			this.state.hide = true;
-
-			let self = this;
-			setTimeout( function(){
-				self.state.hide = false;
-			}, 1 * 1000 );
 
 			if( this.state.intro ){
-				
+				let self = this;
+
+				this.state.hide = true;
 				this.$root.$emit('intro-complete');
+
+				setTimeout( function(){
+					self.state.hide = false;
+				}, 1 * 1000 );
 
 				setTimeout( function(){
 					self.state.intro = false;
