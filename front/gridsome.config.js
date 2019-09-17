@@ -5,6 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'kubedev-home',
+  siteName: 'kubedev',
+  siteUrl: 'https://www.kubedev.co.uk',
+  titleTemplate: '%s',
+  siteDescription: 'Kevin Flynn Kubedev Web Developer Porfolio, London UK, creative design, interactive development, usability, development in HMTL5, Design, Mockup, Responsive Design, Html/CSS/Javascript, Animation (3d), NodeJS, ExpressJS, VueJS, MongoDB, Nginx, VPS Deploy, Testing, Mocha, Chai, Unity, C# (Unity), Python',
   plugins: []
 }

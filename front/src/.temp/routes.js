@@ -1,9 +1,5 @@
 export default [
   {
-    path: "/about",
-    component: () => import(/* webpackChunkName: "page--src--pages--about-vue" */ "/Users/kevinflynn/studio/web/web-kubedev-home/front/src/pages/About.vue")
-  },
-  {
     name: "home",
     path: "/",
     component: () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/Users/kevinflynn/studio/web/web-kubedev-home/front/src/pages/Index.vue")

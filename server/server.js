@@ -11,6 +11,8 @@ const env_mode = (process.env.NODE_ENV).toLowerCase();
 
 var server = require('pushstate-server');
 
+console.log({ port: process.env.PORT, directory: './public' });
+
 server.start({ port: process.env.PORT, directory: './public' });
 
 

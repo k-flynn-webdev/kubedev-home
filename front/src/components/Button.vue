@@ -2,7 +2,12 @@
 
 	<div class="button-holder">
 
-		<a class="logo-button anim-fast" v-bind:href=link v-bind:title=title target="_blank" rel="noopener">
+		<a class="logo-button anim-fast" 
+		v-bind:href=link 
+		v-bind:aria-label=title
+		v-bind:title=title
+		target="_blank" 
+		rel="noopener">
 
 			<div class="hover-flip anim-slow">
 				<slot></slot>

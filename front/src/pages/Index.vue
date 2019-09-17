@@ -56,12 +56,12 @@
 
 <script>
 
-import cprofile from '~/components/Profile.vue';
+// import cprofile from '~/components/Profile.vue';
 import csection from '~/components/Section.vue';
 
 export default {
 	metaInfo: {
-		title: 'kubedev'
+		// title: 'kubedev'
 	},
 	data() {
 		return {
@@ -71,7 +71,7 @@ export default {
 		};
 	},		
 	components: {
-		cprofile,
+		// cprofile,
 		csection,
 	},
 	methods : {
