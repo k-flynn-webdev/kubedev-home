@@ -72,6 +72,16 @@ export default {
 	fill : var(--colour-dark);
 }
 
+/*// flipping inner colurs */
+.hover-flip svg .colour-fill{
+	fill : var(--colour-dark);
+	transition: 1.5s cubic-bezier(0.35, 0.025, 0.3, 1.1);
+}
+.hover-flip:hover svg .colour-fill{
+	fill : var(--colour-pop);
+}
+
+
 .logo-button .logo-highlight {
 	position: absolute;
 	top: 0;

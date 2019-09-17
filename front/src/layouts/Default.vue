@@ -16,6 +16,7 @@
 
 					<cgithub></cgithub>
 					<clinkedin></clinkedin>
+					<ccv></ccv>
 					<ctwitter></ctwitter>
 					<cyoutube></cyoutube>
 					<cinstagram></cinstagram>
@@ -55,6 +56,7 @@ import cinstagram from '~/components/Instagram.vue';
 import clinkedin from '~/components/Linkedin.vue';
 import cyoutube from '~/components/Youtube.vue';
 import cgithub from '~/components/Github.vue';
+import ccv from '~/components/CV.vue';
 
 export default {
 	methods : {
@@ -69,6 +71,7 @@ export default {
 		clinkedin,
 		cyoutube,
 		cgithub,
+		ccv,
 	},
 }
 </script>

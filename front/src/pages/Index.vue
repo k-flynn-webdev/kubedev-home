@@ -39,17 +39,15 @@
 					<span class="colour-fill-pop text"> (full-stack) </span>
 				</template>
 
-
 				<div class="colour-fill-pop text">
 
-					<p> NodeJS . VueJS . Javascript . Python . C# </p>
-					<p> Animation . Games . Web </p>
+					<p> VueJS . Javascript </p>
+					<p> NodeJS . Express . MongoDB . Python . C# </p>
+					<p> Web . Animation . Games </p>
 
 				</div>
 
 			</csection>
-
-			<!-- </div> -->
 
 		</div>
 
