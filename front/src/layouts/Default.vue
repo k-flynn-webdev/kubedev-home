@@ -25,6 +25,8 @@
 
 			</div>
 
+			<cavailable></cavailable>
+
 		</div>
 
 	</div>
@@ -57,6 +59,7 @@ import clinkedin from '~/components/Linkedin.vue';
 import cyoutube from '~/components/Youtube.vue';
 import cgithub from '~/components/Github.vue';
 import ccv from '~/components/CV.vue';
+import cavailable from '~/components/Available.vue';
 
 export default {
 	methods : {
@@ -72,6 +75,7 @@ export default {
 		cyoutube,
 		cgithub,
 		ccv,
+		cavailable,
 	},
 }
 </script>
