@@ -42,7 +42,7 @@
 				<div class="colour-fill-pop text">
 
 					<p> VueJS . Javascript </p>
-					<p> NodeJS . ExpressJS . MongoDB . Python . C# . Mocha(Chai) </p>
+					<p> NodeJS . ExpressJS . MongoDB . Python . C# . Jest . Mocha </p>
 					<p> Web . Animation . Games </p>
 
 				</div>
