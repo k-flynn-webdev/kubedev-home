@@ -29,6 +29,15 @@ export default {
 			let self = this;
 			setTimeout( function(){
 				self.available = user.available;
+				fetch(window.location.href + 'available.txt')
+					.then((res) => {
+						if (res.status !== 200){
+							self.available = false;
+							return;
+						}
+
+						self.available = true;
+					})
 			}, self.delay);
 		},
 	},
