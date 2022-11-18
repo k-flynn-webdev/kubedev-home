@@ -38,7 +38,7 @@ export default {
 	name: 'c-cv',
 	data(){
 		return {
-			link : 'k-flynn-resume-27.pdf',
+			link : 'k-flynn-resume.pdf',
 			title : 'CV',
 		}
 	},
