@@ -41,8 +41,9 @@
 
 				<div class="colour-fill-pop text">
 
-					<p> VueJS . Javascript </p>
-					<p> Django . NodeJS . ExpressJS . MongoDB . Python . C# . Jest . Mocha </p>
+					<p> Javascript . Python . C# (Unity) </p>
+					<p> Vue . Node . Express . Django . Nginx . Unity . Docker </p>
+					<p> Jest . Gherkin . Cypress </p>
 					<p> Web . Animation . Games </p>
 
 				</div>
