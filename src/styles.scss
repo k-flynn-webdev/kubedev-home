@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
+$font-stack: Helvetica, sans-serif;
+$primary-hue: 120;
+
+$colour-text: hsl($primary-hue, 10%, 88%);
+$colour-accent: hsl($primary-hue, 66%, 80%);
+$colour-pop: hsl($primary-hue, 20%, 80%);
+$colour-light: hsl($primary-hue, 6%, 20%);
+$colour: hsl($primary-hue, 6%, 10%);
+$colour-dark: hsl($primary-hue, 6%, 3%);
+
+
+// override text colour
+a, span, p, h1, h2, h3, h4, strong, div, .text, .title, .heading {
+  color: $colour-text;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 8rem;
+}
+
+a { color: $colour-accent; }
+
+html {
+  color: $colour-pop;
+  background: $colour-dark;
+  background: -webkit-linear-gradient(to top, $colour, $colour-dark) fixed;
+  background: linear-gradient(to top, $colour, $colour-dark) fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  text-align: center;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.content {
+  text-align: center;
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+section {
+  margin: 2rem 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  hr {
+    flex-grow: 1;
+    margin: 0 1.5rem;
+    border: 0;
+    border-top: 2px solid;
+    transform: translateY(50%);
+    opacity: 0.33;
+  }
+}
+
+.flex {
+  display: flex;
+
+  &.space-between {
+    justify-content: space-between;
+  }
+
+  &.flex-row {
+    flex-direction: row;
+  }
+
+  &.flex-col {
+    flex-direction: column;
+  }
+}
+
+.skills {
+  margin: 2rem 1rem;
+}
+
+@for $i from 1 through 5 {
+  .m-#{$i} {
+    margin: #{$i}rem;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}rem;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}rem;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}rem;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}rem;
+  }
+  .mx-#{$i} {
+    margin-left: #{$i}rem;
+    margin-right: #{$i}rem;
+  }
+  .my-#{$i} {
+    margin-top: #{$i}rem;
+    margin-bottom: #{$i}rem;
+  }
+}
+
+
+//icon stuff
+.kubedev.icon {
+  max-width: 3rem;
+
+  svg {
+   fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linejoin: round;
+    stroke-miterlimit: 2;
+  }
+
+  #icon {
+    #border {
+      fill: black;
+      stroke: $colour-accent;
+      stroke-width: 5px;
+      stroke-linejoin: round;
+    }
+
+    #cube {
+      fill: $colour-text;
+    }
+
+    #shade {
+      fill: $colour;
+    }
+  }
+}
+
+
