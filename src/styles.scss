@@ -78,6 +78,13 @@ section {
   }
 }
 
+.panel {
+  background-color: $colour-pop;
+  border-radius: 6px;
+  color: $colour-dark;
+  padding: 1rem;
+}
+
 .flex {
   display: flex;
 
@@ -123,14 +130,21 @@ section {
     margin-bottom: #{$i}rem;
   }
 }
-
+.link {
+  display: block;
+   svg {
+    max-width: 2rem;
+    fill: $colour-text;
+    transform: translateY(25%);
+  }
+}
 
 //icon stuff
 .kubedev.icon {
   max-width: 3rem;
 
   svg {
-   fill-rule: evenodd;
+    fill-rule: evenodd;
     clip-rule: evenodd;
     stroke-linejoin: round;
     stroke-miterlimit: 2;

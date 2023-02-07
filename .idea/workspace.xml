@@ -2,83 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b60426-2117-4100-b457-ff0bfadfeb3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/.cache/assets/static/favicon.ac8d93a.e3cbb31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/gridsome.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/gridsome.server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/run_build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/run_copy_to_server.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/run_dev.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/.temp/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/.temp/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/.temp/icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/.temp/now.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/.temp/plugins-client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/.temp/plugins-server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/.temp/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/style/anim.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/style/colour.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/style/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/style/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/assets/style/text.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Available.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Button.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/CV.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/GitHub.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Instagram.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/LinkedIn.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Logo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Profile.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Section.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Twitter.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Youtube.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/data/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/layouts/Default.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/layouts/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/pages/Index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/pages/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/templates/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/static/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/static/available.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/static/k-flynn-resume-23.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/static/k-flynn-resume-24.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/static/k-flynn-resume-27.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/static/k-flynn-resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/static/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app_start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kubedev.co.uk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/404/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/css/0.styles.59055824.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/js/app.0828504a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/js/page--node-modules--gridsome--app--pages--404-vue.9ef15cfb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/js/page--src--pages--index-vue.28c6c24f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/static/favicon.6f4ef45.e3cbb31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/static/favicon.ac8d93a.e3cbb31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/static/favicon.b9532cc.e3cbb31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/static/favicon.ce0531f.e3cbb31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/assets/static/favicon.f22e9f3.e3cbb31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/available.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/k-flynn-resume-23.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/k-flynn-resume-24.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/k-flynn-resume-27.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/k-flynn-resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/kevin-flynn-resume.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/vars.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +27,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homepage/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -111,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/homepage/src" />
       <recent name="$PROJECT_DIR$/homepage/src/components" />
     </key>
@@ -147,6 +74,14 @@
       <workItem from="1627419516395" duration="924000" />
       <workItem from="1675768750354" duration="20615000" />
     </task>
+    <task id="LOCAL-00001" summary="large migrate">
+      <created>1675795237263</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675795237263</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,5 +98,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="large migrate" />
+    <option name="LAST_COMMIT_MESSAGE" value="large migrate" />
   </component>
 </project>

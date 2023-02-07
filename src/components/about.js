@@ -1,6 +1,7 @@
 import * as React from "react"
 import Skills from "./skills"
 import Divider from "./divider"
+import AboutDetail from "./aboutDetail"
 
 const languages = ['javascript', 'python', 'c# (Unity)']
 const tools = ['vue', 'node',  'express', 'django', 'nginx', 'unity', 'docker']
@@ -16,7 +17,7 @@ const About = () => {
 				<div className="about">
 
 					<div className="blurb mb-4">
-						<p>Happy to be building ideas for the web and mobile. Have a project, idea or problem you'd like to discuss?</p>
+						<p>Currently available for contract work on Web Development projects?</p>
 						<a href="mailto:hi@kubedev.co.uk">hi@kubedev.co.uk</a>
 					</div>
 
@@ -32,6 +33,8 @@ const About = () => {
 							)}
 						</div>
 					</div>
+
+					<AboutDetail />
 
 				</div>
 			</section>
