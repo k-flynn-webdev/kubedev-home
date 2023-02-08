@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
+$font-stack: Helvetica, sans-serif;
+$primary-hue: 120;
+
+$colour-text: hsl($primary-hue, 10%, 88%);
+$colour-accent: hsl($primary-hue, 66%, 80%);
+$colour-pop: hsl($primary-hue, 20%, 80%);
+$colour-light: hsl($primary-hue, 6%, 20%);
+$colour: hsl($primary-hue, 6%, 10%);
+$colour-dark: hsl($primary-hue, 6%, 3%);
+
+
+// override text colour
+a, span, p, h1, h2, h3, h4, strong, div, .text, .title, .heading {
+  color: $colour-text;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 8rem;
+}
+
+a { color: $colour-accent; }
+
+html {
+  color: $colour-pop;
+  background: $colour-dark;
+  background: -webkit-linear-gradient(to top, $colour, $colour-dark) fixed;
+  background: linear-gradient(to top, $colour, $colour-dark) fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  text-align: center;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.content {
+  text-align: center;
+  max-width: 27rem;
+  margin: 0 auto;
+}
+
+section {
+  margin: 2rem 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+
+  hr {
+    flex-grow: 1;
+    margin: 0 1.5rem;
+    border: 0;
+    border-top: 2px solid;
+    transform: translateY(50%);
+    opacity: 0.33;
+  }
+}
+
+.panel {
+  background-color: $colour-pop;
+  border-radius: 6px;
+  color: $colour-dark;
+  padding: 1rem;
+}
+
+.flex {
+  display: flex;
+
+  &.space-between {
+    justify-content: space-between;
+  }
+
+  &.flex-row {
+    flex-direction: row;
+  }
+
+  &.flex-col {
+    flex-direction: column;
+  }
+}
+
+@for $i from 1 through 5 {
+  .m-#{$i} {
+    margin: #{$i}rem;
+  }
+  .mt-#{$i} {
+    margin-top: #{$i}rem;
+  }
+  .ml-#{$i} {
+    margin-left: #{$i}rem;
+  }
+  .mb-#{$i} {
+    margin-bottom: #{$i}rem;
+  }
+  .mr-#{$i} {
+    margin-right: #{$i}rem;
+  }
+  .mx-#{$i} {
+    margin-left: #{$i}rem;
+    margin-right: #{$i}rem;
+  }
+  .my-#{$i} {
+    margin-top: #{$i}rem;
+    margin-bottom: #{$i}rem;
+  }
+}
+
+a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: $colour-accent;
+
+  span {
+    color: inherit;
+  }
+
+ svg {
+    max-width: 2rem;
+    fill: $colour-text;
+    transform: translateY(25%);
+  }
+
+  .link-name {
+    display: inline-block;
+    width: 5rem;
+    text-align: left;
+    text-decoration: underline;
+    transition: color 0.22s ease-in-out;
+  }
+
+  .link-icon {
+    display: inline-block;
+    margin: 0 0.5rem;
+    border: 3px solid $colour-text;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    min-height: 3rem;
+    min-width: 3rem;
+    position: relative;
+    transform: translateY(1rem);
+
+    svg {
+      position: absolute;
+      bottom: 0;
+      transform: translateX(-50%) scale(1.25);
+      transition: transform 0.22s ease-in-out;
+    }
+  }
+
+  .icon-cv .fill-dark path {
+    fill: black;
+  }
+
+  &:hover {
+    color: $colour-pop;
+
+    svg {
+      transform: translateX(-50%) scale(1.75);
+    }
+  }
+}
+
+
+
+//icon stuff
+.kubedev.icon {
+  max-width: 3rem;
+
+  svg {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    stroke-linejoin: round;
+    stroke-miterlimit: 2;
+    overflow: visible;
+
+    #border {
+      fill: black;
+      stroke: $colour-accent;
+      stroke-width: 10px;
+      stroke-linejoin: round;
+    }
+
+    #cube {
+      fill: $colour-text;
+    }
+
+    #shade {
+      fill: $colour;
+    }
+  }
+}
+
+// animation keys setup
+.anim-fade-in {
+  @keyframes animOpacity {
+    0% {
+      opacity: 0;
+      transform: translateY(2.5rem) scale(1.2);
+    }
+    70% {
+      opacity: .1;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  animation: 1s cubic-bezier(.11,.88,.86,1) animOpacity both;
+}
+
+@for $i from 0 through 6 {
+  .anim-delay-#{$i} {
+    animation-delay: #{$i*0.33}s;
+  }
+}
+
+.kubedev.icon #border {
+  @keyframes animIconIntroBorder {
+    0% {
+      opacity: 0;
+      fill: black;
+      stroke: black;
+      stroke-width: 0;
+    }
+    90% {
+      opacity: 1;
+      fill: white;
+      stroke: white;
+      stroke-width: 20px;
+    }
+    100% {
+      opacity: 1;
+      fill: black;
+      stroke: $colour-accent;
+    }
+  }
+
+  animation: 0.5s ease-in-out 0.5s animIconIntroBorder both;
+}
+
+.kubedev.icon #shade,
+.kubedev.icon #cube {
+  @keyframes animIconIntroCubeFall {
+    0% {
+      opacity: 0;
+      transform: translateY(-1.5rem);
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(-1.5rem);
+    }
+    95% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  animation: 1s ease-in-out 0.33s animIconIntroCubeFall both;
+}
+
+.kubedev.icon #shade {
+  @keyframes animIconIntroCubeShade {
+    0% {
+      fill: transparent;
+    }
+    100% {
+      fill: $colour;
+    }
+  }
+
+  animation: 1s ease-in 1.5s animIconIntroCubeShade both;
+}
+
