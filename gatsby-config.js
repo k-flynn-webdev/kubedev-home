@@ -4,11 +4,14 @@
 module.exports = {
   siteMetadata: {
     title: 'Kubedev',
-    siteUrl: `https://www.kubedev.co.uk/`
+    siteUrl: `https://www.kubedev.co.uk/`,
+    description: `Available for contract work on Web Development projects`,
+    twitterUsername: `@gatsbyjs`,
+    image: `/images/favicon.png`,
   },
   plugins: [
     "gatsby-plugin-sass",
-    "gatsby-plugin-google-gtag",
+    // "gatsby-plugin-google-gtag",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

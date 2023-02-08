@@ -2,6 +2,7 @@ import * as React from "react"
 import "../reset.css"
 import "../styles.scss"
 
+import { SEO } from "../components/seo"
 import Header from "../components/header"
 import About from "../components/about"
 import Footer from "../components/footer"
@@ -29,4 +30,6 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>{websiteName}</title>
+export const Head = () => (
+  <SEO />
+)
