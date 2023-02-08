@@ -68,6 +68,8 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 
   hr {
     flex-grow: 1;
@@ -102,10 +104,6 @@ section {
   }
 }
 
-.skills {
-  margin: 2rem 1rem;
-}
-
 @for $i from 1 through 5 {
   .m-#{$i} {
     margin: #{$i}rem;
@@ -132,9 +130,16 @@ section {
   }
 }
 
-.link {
+a {
   display: block;
-   svg {
+  margin-bottom: 0.5rem;
+  color: $colour-accent;
+
+  span {
+    color: inherit;
+  }
+
+ svg {
     max-width: 2rem;
     fill: $colour-text;
     transform: translateY(25%);
@@ -142,8 +147,10 @@ section {
 
   .link-name {
     display: inline-block;
-    width: 10rem;
+    width: 5rem;
     text-align: left;
+    text-decoration: underline;
+    transition: color 0.22s ease-in-out;
   }
 
   .link-icon {
@@ -161,18 +168,20 @@ section {
       position: absolute;
       bottom: 0;
       transform: translateX(-50%) scale(1.25);
-      transition: transform 0.1s ease-in-out;
-
-      &:hover {
-        transform: translateX(-50%) scale(1.75);
-      }
+      transition: transform 0.22s ease-in-out;
     }
   }
 
-
-
   .icon-cv .fill-dark path {
     fill: black;
+  }
+
+  &:hover {
+    color: $colour-pop;
+
+    svg {
+      transform: translateX(-50%) scale(1.75);
+    }
   }
 }
 
@@ -192,7 +201,7 @@ section {
     #border {
       fill: black;
       stroke: $colour-accent;
-      stroke-width: 5px;
+      stroke-width: 10px;
       stroke-linejoin: round;
     }
 
@@ -207,6 +216,30 @@ section {
 }
 
 // animation keys setup
+.anim-fade-in {
+  @keyframes animOpacity {
+    0% {
+      opacity: 0;
+      transform: translateY(2.5rem) scale(1.2);
+    }
+    70% {
+      opacity: .1;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  animation: 1s cubic-bezier(.11,.88,.86,1) animOpacity both;
+}
+
+@for $i from 0 through 6 {
+  .anim-delay-#{$i} {
+    animation-delay: #{$i*0.33}s;
+  }
+}
+
 .kubedev.icon #border {
   @keyframes animIconIntroBorder {
     0% {
@@ -225,7 +258,6 @@ section {
       opacity: 1;
       fill: black;
       stroke: $colour-accent;
-      stroke-width: 5px;
     }
   }
 

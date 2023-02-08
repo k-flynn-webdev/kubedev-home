@@ -3,7 +3,7 @@ import * as React from "react"
 const LinkWithIcon = ({ href, name, children}) => {
   return (
 			<a href={href}
-				 className="link mb-1"
+				 className="link"
 				 aria-label={name}
 				 title={name}
 				 target="_blank"

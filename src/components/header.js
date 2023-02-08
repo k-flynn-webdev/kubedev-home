@@ -1,11 +1,10 @@
 import * as React from "react"
 import Icon from "./icon"
 
-const Header = () => {
+const Header = ({ className }) => {
   return (
-		<div className="flex flex-row space-between">
+		<div className={`flex flex-row space-between ${className}`}>
 			<Icon />
-			{/*<div className="">THIS IS HEADER</div>*/}
 		</div>
   )
 }
