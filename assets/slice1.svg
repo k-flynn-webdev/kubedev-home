@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 281 342" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-454,-264)">
-        <g id="icon">
-            <path id="border" d="M454.666,348.318L594.256,264.732L734.924,349.318L734.924,547.496L640.301,604.281L595.256,577.831L549.705,605.281L454.666,548.496L454.666,348.318Z" style="fill:rgb(255,0,0);"/>
-            <g id="cube" transform="matrix(1,0,0,1,0,48.7978)">
+    <g transform="matrix(1,0,0,1,1,0)">
+        <g>
+            <g id="border" transform="matrix(1,0,0,1,-455.514,-264.103)">
+                <path d="M454.666,348.318L594.256,264.732L734.924,349.318L734.924,547.496L640.301,604.281L595.256,577.831L549.705,605.281L454.666,548.496L454.666,348.318Z" style="fill:rgb(255,0,0);"/>
+            </g>
+            <g id="cube" transform="matrix(1,0,0,1,-455.514,-215.305)">
                 <path d="M499.295,320.113L594.256,264.732L690.295,321.113L690.295,477.813L640.301,507.354L595.256,480.904L549.705,508.354L499.295,478.813L499.295,320.113Z" style="fill:rgb(168,0,0);"/>
             </g>
-            <g id="shade" transform="matrix(1,0,0,1,0,48.7978)">
-                <path d="M499.295,320.113L595.256,377.696L595.256,480.904L549.705,508.354L499.295,478.813L499.295,320.113Z" style="fill:rgb(81,0,0);"/>
+            <g id="shade" transform="matrix(1,0,0,1,-455.514,-215.305)">
+                <path d="M498.295,320.113L595.256,377.696L595.256,481.904L549.705,509.354L498.295,479.813L498.295,320.113Z" style="fill:rgb(81,0,0);"/>
             </g>
         </g>
     </g>

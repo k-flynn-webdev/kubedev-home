@@ -39,11 +39,12 @@ main {
   text-align: center;
   max-width: 40rem;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 
 .content {
   text-align: center;
-  max-width: 25rem;
+  max-width: 27rem;
   margin: 0 auto;
 }
 
@@ -130,6 +131,7 @@ section {
     margin-bottom: #{$i}rem;
   }
 }
+
 .link {
   display: block;
    svg {
@@ -137,7 +139,44 @@ section {
     fill: $colour-text;
     transform: translateY(25%);
   }
+
+  .link-name {
+    display: inline-block;
+    width: 10rem;
+    text-align: left;
+  }
+
+  .link-icon {
+    display: inline-block;
+    margin: 0 0.5rem;
+    border: 3px solid $colour-text;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    min-height: 3rem;
+    min-width: 3rem;
+    position: relative;
+    transform: translateY(1rem);
+
+    svg {
+      position: absolute;
+      bottom: 0;
+      transform: translateX(-50%) scale(1.25);
+      transition: transform 0.1s ease-in-out;
+
+      &:hover {
+        transform: translateX(-50%) scale(1.75);
+      }
+    }
+  }
+
+
+
+  .icon-cv .fill-dark path {
+    fill: black;
+  }
 }
+
+
 
 //icon stuff
 .kubedev.icon {
@@ -148,9 +187,8 @@ section {
     clip-rule: evenodd;
     stroke-linejoin: round;
     stroke-miterlimit: 2;
-  }
+    overflow: visible;
 
-  #icon {
     #border {
       fill: black;
       stroke: $colour-accent;
@@ -168,4 +206,66 @@ section {
   }
 }
 
+// animation keys setup
+.kubedev.icon #border {
+  @keyframes animIconIntroBorder {
+    0% {
+      opacity: 0;
+      fill: black;
+      stroke: black;
+      stroke-width: 0;
+    }
+    90% {
+      opacity: 1;
+      fill: white;
+      stroke: white;
+      stroke-width: 20px;
+    }
+    100% {
+      opacity: 1;
+      fill: black;
+      stroke: $colour-accent;
+      stroke-width: 5px;
+    }
+  }
+
+  animation: 0.5s ease-in-out 0.5s animIconIntroBorder both;
+}
+
+.kubedev.icon #shade,
+.kubedev.icon #cube {
+  @keyframes animIconIntroCubeFall {
+    0% {
+      opacity: 0;
+      transform: translateY(-1.5rem);
+    }
+    50% {
+      opacity: 0;
+      transform: translateY(-1.5rem);
+    }
+    95% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  animation: 1s ease-in-out 0.33s animIconIntroCubeFall both;
+}
+
+.kubedev.icon #shade {
+  @keyframes animIconIntroCubeShade {
+    0% {
+      fill: transparent;
+    }
+    100% {
+      fill: $colour;
+    }
+  }
+
+  animation: 1s ease-in 1.5s animIconIntroCubeShade both;
+}
 

@@ -6,22 +6,27 @@ import Header from "../components/header"
 import About from "../components/about"
 import Footer from "../components/footer"
 
+const websiteName = "Kubedev"
+
 const IndexPage = () => {
   return (
     <main>
+      <section className="mt-1">
 
-      <Header />
+        <Header />
 
-      <div className="content text-center">
-        <h1 className="mb-4">Kubedev</h1>
-        <About />
-      </div>
+        <div className="text-center">
+          <h1 className="mb-4">{websiteName}</h1>
+          <About />
+        </div>
 
-      <Footer />
+        <Footer />
+
+      </section>
     </main>
   )
 }
 
 export default IndexPage
 
-export const Head = () => <title>Kubedev</title>
+export const Head = () => <title>{websiteName}</title>

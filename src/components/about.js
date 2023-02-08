@@ -13,31 +13,29 @@ const details = [languages, tools, test, general]
 
 const About = () => {
   return (
-  		<section>
-				<div className="about">
+		<div className="about content">
 
-					<div className="blurb mb-4">
-						<p>Currently available for contract work on Web Development projects?</p>
-						<a href="mailto:hi@kubedev.co.uk">hi@kubedev.co.uk</a>
-					</div>
+			<div className="blurb mb-4">
+				<p>Currently available for contract work on Web Development projects?</p>
+				<a href="mailto:hi@kubedev.co.uk">hi@kubedev.co.uk</a>
+			</div>
 
-					<div className="skills">
-						<Divider className="mb-1">
-							<strong>Skills </strong>
-							<span>(full-stack)</span>
-						</Divider>
+			<div className="skills">
+				<Divider className="mb-1">
+					<strong>Skills </strong>
+					<span>(full-stack)</span>
+				</Divider>
 
-						<div className="details">
-							{details.map((detail, idx) =>
-									<Skills key={idx} listName={idx} list={detail}/>
-							)}
-						</div>
-					</div>
-
-					<AboutDetail />
-
+				<div className="details">
+					{details.map((detail, idx) =>
+							<Skills key={idx} listName={idx} list={detail}/>
+					)}
 				</div>
-			</section>
+			</div>
+
+			<AboutDetail />
+
+		</div>
   )
 }
 
