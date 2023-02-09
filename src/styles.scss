@@ -216,6 +216,19 @@ a {
 }
 
 // animation keys setup
+.anim-fade-in-quick {
+  @keyframes animQuick {
+    0% {
+      transform: translateY(2.5rem) scale(1.2);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  animation: 0.5s cubic-bezier(.11,.88,.86,1) animQuick both;
+}
+
 .anim-fade-in {
   @keyframes animOpacity {
     0% {
@@ -236,7 +249,7 @@ a {
 
 @for $i from 0 through 6 {
   .anim-delay-#{$i} {
-    animation-delay: #{$i*0.33}s;
+    animation-delay: #{$i*0.15}s;
   }
 }
 
