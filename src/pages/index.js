@@ -19,7 +19,7 @@ const IndexPage = () => {
         <Header className="anim-fade-in anim-delay-0" />
 
         <div className="text-center content">
-          <h1 className="mb-4 anim-fade-in anim-delay-1">{websiteName}</h1>
+          <h1 className="mb-4 anim-fade-in-quick">{websiteName}</h1>
 
           <About className="anim-fade-in anim-delay-2" />
 

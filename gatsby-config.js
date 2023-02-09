@@ -1,4 +1,4 @@
-export const projectName = 'Kubedev'
+const projectName = 'Kubedev'
 
 /**
  * @type {import('gatsby').GatsbyConfig}
