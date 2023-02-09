@@ -2,42 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0b60426-2117-4100-b457-ff0bfadfeb3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/_gatsby/slices/_gatsby-scripts-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/_gatsby/slices/_gatsby-scripts-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-0f8de784bd76af5dde04.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-0f8de784bd76af5dde04.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-0f8de784bd76af5dde04.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-1ee260d42d4c7a79f40e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-1ee260d42d4c7a79f40e.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/app-1ee260d42d4c7a79f40e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/chunk-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/chunk-map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-3afcafd7818cc7b1168a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-3afcafd7818cc7b1168a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-62b029ad339221f29e47.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-62b029ad339221f29e47.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-68512bbd764d020a444b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-68512bbd764d020a444b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-76c7b495341bf6c70e47.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-76c7b495341bf6c70e47.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/app-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/app-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-370cd7157b76c72abb83.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-370cd7157b76c72abb83.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-908a3fce517fa3a79582.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-908a3fce517fa3a79582.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-a3c45ee38190b77c11a7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-a3c45ee38190b77c11a7.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-d08cbb455a051317becc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-d08cbb455a051317becc.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack.stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/webpack.stats.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aboutDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-links.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/linkWithIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/link-with-icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README copy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/_gatsby/slices/_gatsby-scripts-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-2cd968d733b53a18e2ba.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-2cd968d733b53a18e2ba.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-2cd968d733b53a18e2ba.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-3aeb6f32a2fb7adaccb0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-3aeb6f32a2fb7adaccb0.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-3aeb6f32a2fb7adaccb0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chunk-map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-b98ca466bc5dee572f01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-b98ca466bc5dee572f01.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-51f09b6f81943dcb6edb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-51f09b6f81943dcb6edb.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-ba1396810841a1d4f52f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-js-ba1396810841a1d4f52f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-9bd5f55576cb7e79c732.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-9bd5f55576cb7e79c732.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/framework-9bd5f55576cb7e79c732.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/404.html/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/404/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/app-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/sq/d/1865044719.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.81a7487c9cf26350bf56.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.ab0d07ded8ef006f8fbc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.e6c7c00c0d0aed6c86f9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-83ddd441a3ebb3721328.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-83ddd441a3ebb3721328.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-db5c3ddb6c97dd05629b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-db5c3ddb6c97dd05629b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-ee3ee1831a557410e37c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-ee3ee1831a557410e37c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack.stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/debug/partytown-atomics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/debug/partytown-media.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/debug/partytown-sandbox-sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/debug/partytown-sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/debug/partytown-ww-atomics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/debug/partytown-ww-sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/debug/partytown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/partytown-atomics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/partytown-media.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/partytown-sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/~partytown/partytown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

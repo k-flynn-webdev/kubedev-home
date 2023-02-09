@@ -1,10 +1,12 @@
+const projectName = 'Kubedev'
+
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
   siteMetadata: {
-    title: 'Kubedev',
-    siteUrl: `https://www.kubedev.co.uk/`,
+    title: projectName,
+    siteUrl: `https://www.${projectName.toLowerCase()}.co.uk/`,
     description: `Available for contract work on Web Development projects`,
     twitterUsername: `@gatsbyjs`,
     image: `/images/favicon.png`,
@@ -15,8 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Kubedev`,
-        short_name: 'Kubedev',
+        name: projectName,
+        short_name: projectName,
         start_url: '/',
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,

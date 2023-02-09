@@ -1,8 +1,8 @@
 {
-  "name": "homepage",
+  "name": "Kubedev",
   "version": "1.0.0",
   "private": true,
-  "description": "homepage",
+  "description": "Kubedev homepage",
   "author": "kevinflynn",
   "keywords": [
     "gatsby"
