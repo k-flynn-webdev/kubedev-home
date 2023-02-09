@@ -2,12 +2,11 @@ import * as React from "react"
 import "../reset.css"
 import "../styles.scss"
 
-import { SEO } from "../components/seo"
+import { Seo } from "../components/seo"
 import Header from "../components/header"
 import About from "../components/about"
 import AboutSkills from "../components/about-skills"
 import AboutLinks from "../components/about-links"
-import Footer from "../components/footer"
 import Divider from '../components/divider';
 
 const websiteName = "Kubedev"
@@ -37,9 +36,6 @@ const IndexPage = () => {
 
           <AboutLinks className="anim-fade-in anim-delay-6" />
         </div>
-
-        <Footer />
-
       </section>
     </main>
   )
@@ -48,5 +44,5 @@ const IndexPage = () => {
 export default IndexPage
 
 export const Head = () => (
-  <SEO />
+  <Seo />
 )
