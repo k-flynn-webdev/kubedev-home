@@ -14,12 +14,12 @@ const websiteName = "Kubedev"
 const IndexPage = () => {
   return (
     <main>
-      <section className="mt-1">
+      <section className="px-2">
 
         <Header className="anim-fade-in anim-delay-0" />
 
         <div className="text-center content">
-          <h1 className="mb-4 anim-fade-in-quick">{websiteName}</h1>
+          <h1 className="mb-5 mb-md-6 anim-fade-in-quick">{ websiteName }</h1>
 
           <About className="anim-fade-in anim-delay-2" />
 
