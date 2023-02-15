@@ -5,8 +5,10 @@ const About = ({ className }) => {
 		<div className={`about mb-5 mb-md-6 ${className}`}>
 
 			<div className="blurb">
-				<p>Available for contract work on Web Development projects</p>
-				<a href="mailto:hi@kubedev.co.uk">hi@kubedev.co.uk</a>
+				<p>
+					Available for Web Development contract work.
+					<a href="mailto:hi@kubedev.co.uk">hi@kubedev.co.uk</a>
+				</p>
 			</div>
 
 		</div>
