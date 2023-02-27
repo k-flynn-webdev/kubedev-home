@@ -11,7 +11,7 @@ const details = [languages, tools, test, general]
 
 const About = ({ className }) => {
   return (
-		<div className={`skills ${className}`}>
+		<div className={`skills mb-5 mb-md-6 ${className}`}>
 
 				<div className="details">
 					{details.map((detail, idx) =>
