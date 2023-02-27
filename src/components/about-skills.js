@@ -2,7 +2,7 @@ import * as React from "react"
 import Skills from "./skills"
 
 const languages = ['javascript', 'python', 'c# (Unity)']
-const tools = ['vue', 'node',  'express', 'django', 'nginx', 'unity', 'docker']
+const tools = ['vue', 'react', 'node',  'express', 'django', 'nginx', 'unity', 'docker']
 const test = ['jest', 'gherkin',  'cypress']
 const general = ['web', 'animation',  'games']
 
