@@ -1,4 +1,4 @@
-const projectName = 'Kubedev'
+const projectName = "Kubedev";
 
 /**
  * @type {import('gatsby').GatsbyConfig}
@@ -19,7 +19,7 @@ module.exports = {
       options: {
         name: projectName,
         short_name: projectName,
-        start_url: '/',
+        start_url: "/",
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
@@ -27,5 +27,4 @@ module.exports = {
       },
     },
   ],
-
 };

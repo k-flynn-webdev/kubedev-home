@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  nuxt-mini-stack:
+    build:
+      context: ./app
+      dockerfile: ./Dockerfile
+    ports:
+      - "3001:3000"
+    tmpfs:
+      - /tmp
+    volumes:
+      - ./build:/app/build
