@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-  nuxt-mini-stack:
+  kubedev-home:
     build:
       context: ./app
       dockerfile: ./Dockerfile

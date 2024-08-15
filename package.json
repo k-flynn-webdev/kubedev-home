@@ -4,6 +4,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docker": "docker compose rm -f; docker compose -f docker-compose.yml up --build -d --force-recreate"
+    "docker": "rm -r ./build; docker compose rm -f; docker compose -f docker-compose.yml up --build -d --force-recreate"
   }
 }
