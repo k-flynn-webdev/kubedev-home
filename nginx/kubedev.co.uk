@@ -2,7 +2,7 @@ server {
         listen 80;
         listen [::]:80;
 
-        root /home/user01/web-kubedev-home/public;
+        root /home/user01/kubedev-home/build;
         index index.html index.htm index.nginx-debian.html;
 
         server_name kubedev.co.uk www.kubedev.co.uk;
