@@ -1,25 +1,30 @@
-import * as React from "react"
-import "../reset.css"
-import "../styles.scss"
+import * as React from "react";
+import "../reset.css";
+import "../styles.scss";
 
-import { Seo } from "../components/seo"
-import Header from "../components/header"
-import About from "../components/about"
-import AboutSkills from "../components/about-skills"
-import AboutLinks from "../components/about-links"
-import Divider from '../components/divider';
+import { Seo } from "../components/seo";
+import Header from "../components/header";
+import About from "../components/about";
+import AboutSkills from "../components/about-skills";
+import AboutLinks from "../components/about-links";
+import Divider from "../components/divider";
+import posthog from "posthog-js";
 
-const websiteName = "Kubedev"
+const websiteName = "Kubedev";
 
 const IndexPage = () => {
+  posthog.init("phc_L74EMUW9Fky8SwnfWKDkgPdrDSZIqmkpYtycBfytmmm", {
+    api_host: "https://eu.i.posthog.com",
+    person_profiles: "identified_only",
+  });
+
   return (
     <main>
       <section className="px-2">
-
         <Header className="anim-fade-in anim-delay-0" />
 
         <div className="text-center content">
-          <h1 className="mb-5 mb-md-6 anim-fade-in-quick">{ websiteName }</h1>
+          <h1 className="mb-5 mb-md-6 anim-fade-in-quick">{websiteName}</h1>
 
           <About className="anim-fade-in anim-delay-2" />
 
@@ -38,11 +43,9 @@ const IndexPage = () => {
         </div>
       </section>
     </main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head = () => (
-  <Seo />
-)
+export const Head = () => <Seo />;
