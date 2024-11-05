@@ -9,6 +9,7 @@ import AboutSkills from "../components/about-skills";
 import AboutLinks from "../components/about-links";
 import Divider from "../components/divider";
 import Tracking from "../components/tracking";
+import Footer from "../components/footer";
 
 const websiteName = "Kubedev";
 
@@ -16,7 +17,7 @@ const IndexPage = () => {
   return (
     <main>
       <Tracking />
-      <section className="px-2">
+      <section className="px-2 kubedev">
         <Header className="anim-fade-in anim-delay-0" />
 
         <div className="text-center content">
@@ -38,6 +39,7 @@ const IndexPage = () => {
           <AboutLinks className="anim-fade-in anim-delay-6" />
         </div>
       </section>
+      <Footer />
     </main>
   );
 };

@@ -1,7 +1,7 @@
 {
   "name": "kubedev-home",
   "description": "kubedev-home",
-  "version": "0.0.0",
+  "version": "0.2.1",
   "private": true,
   "scripts": {
     "docker": "rm -r ./build; docker compose rm -f; docker compose -f docker-compose.yml up --build -d --force-recreate"
