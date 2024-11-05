@@ -1,0 +1,13 @@
+# name: on-merge
+
+# on:
+#   pull_request:
+#     branches:
+#       - master
+#     types: [closed]
+
+# jobs:
+#   deploy-to-VPS:
+#     runs-on: self-hosted
+#     steps:
+#       - run: npm run docker:build
